@@ -1,13 +1,17 @@
 body{
    font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 18px;
+   font-size: 16px;
+   color: aliceblue;
 }
-h1,p{
+h2,p{
    
     margin: 0;
 }
+
 h2{
+    padding-top: 10px;
     font-size: 20px;
+  line-height: 2ems;
 }
 
 header, footer{
@@ -17,18 +21,30 @@ header, footer{
 img{
     max-height: 100%;
     float: right;
-   
 }
 .card{
     width: 450px;
     height: 250px;
     background-color: blue;
+    border-radius: 25px;
+    position: center;
+    
+}
+article{
+    height: 148px;
+    
 }
 header{
-    background-color: linear-gradient(to bottom, blue, yellow);
-    border-radius: 40px;
+    background: linear-gradient(180deg, rgb(16, 12, 100) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
 }
 footer{
-    background-color: linear-gradient(to bottom, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
-    border-radius: 40px;
+    background: linear-gradient(360deg, rgb(7, 3, 80) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 90%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+}
+p{
+    padding: 10px;
 }
